@@ -1,0 +1,125 @@
+/*
+filename: index.css
+author: 
+created: 5/10/2023
+last modified: 5/10/2023
+description: html files it refers to index.html
+*/
+
+/* Introduction banner styling*/
+.intro {
+    position: relative;
+    display: inline-block;
+}
+
+.intro p {
+    background-color: #244a76;
+    border-radius: 25px;
+    padding: 18px;
+    width: 200px;
+    height: 240px;
+    opacity: 0.9;
+}
+
+.intro h1 {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    color: white;
+    font-weight: bolder;
+    font-size: 260%;
+}
+
+.intro p {
+    width:500px;
+    position: absolute;
+    left: 70px;
+    top: 80px;
+    word-wrap: break-word;
+    font-weight: bold;
+    color: white;
+}
+
+.intro .button {
+    text-decoration: none;
+    position: absolute;
+    top: 53%;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    padding: 10px 25px;
+    background-color: #ff914d;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.intro .button2 {
+    text-decoration: none;
+    position: absolute;
+    top: 53%;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    padding: 10px 25px;
+    background-color: #ff914d;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.intro img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.header {    
+    padding: 60px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(82, 82, 82);
+    font-size: 30px;
+}
+
+.info {
+    padding:20px;
+    text-align: center;
+    background-color: #3267a2;
+    color: white;
+}
+
+.col-container {
+    display: flex; 
+    width: 100%;
+    background-color: #3267a2;
+    color: white;
+}
+
+.col {
+    flex: 1;
+    padding: 16px;
+}
+
+.col .col-pic {
+    width: 40%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    object-fit: scale-down;
+}
+
+h2 {
+    color: #ff914d;
+}
+
+.info p {
+    width: 50%;
+    text-align: left;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    border-left: 6px solid #ff914d;
+    padding: 10px;
+}

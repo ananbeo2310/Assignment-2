@@ -1,0 +1,203 @@
+/*
+filename: about.css
+author: Do Quang Anh
+created: 5/10/2023
+last modified: 5/10/2023
+description: html files it refers to about.html
+*/
+h2{
+  text-align:center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url(../styles/images/main-background.jpeg);
+}
+
+.about-section {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Team member car */
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+
+.team-image {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.team-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #244a76;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #5f8fc6;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+/* Table */
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.courses-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.courses-table th, .courses-table td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.courses-table th {
+  background-color: #244a76;
+  color: #f2f2f2;
+}
+
+.courses-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.courses-table tr:nth-child(odd) {
+  background-color: white;
+}
+
+.scheduling-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.scheduling-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scheduling-table th, .scheduling-table td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.scheduling-table th {
+  background-color: #244a76;
+  color: #f2f2f2;
+}
+
+.scheduling-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.scheduling-table tr:nth-child(odd) {
+  background-color: white;
+}
+
+.table-container {
+  table-layout: fixed;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+  width: 50%;
+}
+
+.page-title {
+  position: absolute;
+  left: 4%;
+  padding: 10px;
+  border-left: 6px solid #ff914d;
+}
+
+/* Tutor */
+.section-heading {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.tutor {
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #888;
+  padding-left: 200px;
+  max-width: 950px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.definition-list dt { 
+  float: left; 
+  clear: left; 
+  width: 180px; 
+  font-weight: bold;  
+} 
+
+.definition-list dd { 
+  margin: 0 0 0 180px; 
+  padding: 0 0 0 0;
+}

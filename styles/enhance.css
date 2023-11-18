@@ -1,0 +1,26 @@
+/*
+filename: enhance.css
+author:
+created: 5/10/2023
+last modified: 5/10/2023
+description: html files it refers to enhancements.html
+*/
+body {
+    background-image: url(../styles/images/main-background.jpeg);
+}
+
+.page-title {
+    position: absolute;
+    left: 4%;
+    padding: 10px;
+    border-left: 6px solid #ff914d;
+}
+
+.first {
+    padding: 50px;
+}
+
+.main-content {
+    padding-top: 5%;
+    padding-bottom: 100px
+}

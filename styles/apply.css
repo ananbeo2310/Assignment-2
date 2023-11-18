@@ -1,0 +1,98 @@
+/*
+filename: apply.css
+author: Dinh Duc Minh
+created: 5/10/2023
+last modified: 5/10/2023
+description: html files it refers to apply.html
+*/
+body {
+    background-image: url(../styles/images/main-background.jpeg);
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus {
+    border: 3px dashed rgb(26, 26, 26);
+}
+
+fieldset {
+    width: 220px;
+}
+
+legend{
+    font-weight: bold;
+}
+  
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+select {
+    width: 100%;
+    padding: 12px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #596dee;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.applyform {
+    display: block;
+    padding: 10%;
+    border-radius: 20px;
+    line-height: 30px;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.applyform .form-title {
+    padding: 15px;
+    text-align: center;
+    margin-top: -90px;
+    font-size: 40px;
+    color: #2f6098;
+}
+
+.page-title {
+    position: absolute;
+    left: 4%;
+    border-left: 6px solid #ff914d;
+    padding: 10px;
+}
+
+.hr-applyform {
+    margin-top: -17px;
+}
+
+select#state {
+    width: 130px;
+}

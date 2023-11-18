@@ -1,0 +1,143 @@
+/*
+filename: styles.css
+author:
+created: 5/10/2023
+last modified: 5/10/2023
+description: CSS file for styling shared properties between pages. 
+*/
+
+/* Webpage body styling */
+html, body {
+    padding:0;
+    margin:0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Navigation bar styling */
+.navbar{
+    width: 100%;
+    overflow: auto;
+    background: #244b77;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+
+ul {
+    margin: 0 0 0 150px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+.navi {
+    background-color: #C5F1FC;
+}
+
+.logo{
+    width: 50px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px
+}
+
+
+.navbar a {
+    width: 180px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #2f6098;
+    color: #C5F1FC;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #2f6098;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.inactive {
+    background-color: #C5F1FC;
+}
+
+/* Webpage footer styling*/
+.main-footer {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.main-footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.main-footer li {
+    padding: 50px;
+}
+
+.main-footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.main-footer ul a:hover {
+    opacity: 1;
+    color: #000000;
+}
+
+.main-footer .icon-footer {
+    text-align: center;
+}
+
+.main-footer .icon-footer>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #1a1a1a;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.main-footer .icon-footer>a:hover {
+    opacity: 0.9;
+    color: #000000;
+}
+
+.hr-footer {
+    border: 1px solid #1a1a1a;
+    width:35%;
+    margin-top: 15px;
+}
+
